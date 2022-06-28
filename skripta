@@ -1,0 +1,35 @@
+2041  git init proiektutxo2
+ 2042  touch file1
+ 2043  git add file1
+ 2044  mv file1 proiektutxo2
+ 2045  cd proiektutxo2
+ 2046  ls
+ 2047  git add file1
+ 2048  git commit -m "file1sortua"
+ 2049  nano file1
+ 2050  git add .
+ 2051  nano file2
+ 2052  git add .
+ 2053  git commit -m "file1aldatua eta file2 sortua"
+ 2054  git log
+ 2055  git branch feature1
+ 2056  git branch
+ 2057  git checkout feature1
+ 2058  git branch
+ 2059  nano file3
+ 2060  git add .
+ 2061  git commit -m "file3 sortua"
+ 2062  nano file3
+ 2063  git add .
+ 2064  git commit -m "file3 aldatua"
+ 2065  git log
+ 2066  git merge --help
+ 2067  git checkout main
+ 2068  git merge feature1
+ 2069  git branch
+ 2070  git log
+ 2071  nano file4 
+ 2072  git add .
+ 2073  git commit -m "file4 sortua"
+ 2074  git log
+ 2075  history
